@@ -12,6 +12,9 @@ The available data consists in:
 ![Dataset](https://github.com/federico1ciceri/AR1DP/blob/main/images/Dataset.png)
 Here a brief representation of the model:
 ![Model](https://github.com/federico1ciceri/AR1DP/blob/main/images/Model.png)
+
+
+
 More details on the report included in this github repository.
 	
 ## Code
