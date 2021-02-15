@@ -24,7 +24,8 @@ Sketch of the C++ code (showing the main.cpp): <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update_allocated_variables(sigma_matrix,sigma_initial, s_initial, T, N);`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update_allocated_variables(mu_matrix,mu_initial, s_initial, T, N);`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`M_initial = update_M(s_initial, N*T, prioralphaforM, priorbetaforM, M_initial, &rng);`<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`psi_initial = update_psi(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma, botlimforpsi, uplimforpsi, &psi_accept_count, &psi_metro_count, &rng);`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`psi_initial = update_psi(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma,`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`botlimforpsi, uplimforpsi, &psi_accept_count, &psi_metro_count, &rng);`<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`epsilon_initial = update_epsilon_gibbs(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma, &rng);`<br />
 	`}`
 	
