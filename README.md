@@ -3,9 +3,9 @@ How gender stereotypes changed for adjectives and occupations?
 
 ## Table of contents
 * [Dataset and model](#Dataset/model)
-* [Folder structure](#Folder structure)
+* [Folder structure](#Folders)
 * [A sketch of the code](#Code)
-* [Some results](#Some results)
+* [Some results](#Results)
 
 ## Dataset/model
 The focus of this project is on the study of the temporal dynamics of gender stereotypes in adjectives and occupations in the 20th and 21st centuries in the United States.
@@ -17,7 +17,7 @@ Here a brief representation of the model:
 
 More details on the report included in this github repository.
 	
-## Folder structure
+## Folders
 
 ## Code
 Sketch of the C++ code (showing the main.cpp):
@@ -34,11 +34,5 @@ Sketch of the C++ code (showing the main.cpp):
 	`}`
 	
 	
-## Some results
-To run this project, install it locally using npm:
+## Results
 
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
