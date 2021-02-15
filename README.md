@@ -9,9 +9,9 @@ How gender stereotypes changed for adjectives and occupations?
 ## Dataset/model
 The focus of this project is on the study of the temporal dynamics of gender stereotypes in adjectives and occupations in the 20th and 21st centuries in the United States.
 The available data consists in:
-![Dataset](https://github.com/federico1ciceri/AR1DP/blob/main/images/Dataset.png)
+![Dataset](https://github.com/federico1ciceri/AR1DP/blob/main/images/Dataset.png | width=100)
 Here a brief representation of the model:
-![Model](https://github.com/federico1ciceri/AR1DP/blob/main/images/Model.png)
+![Model](https://github.com/federico1ciceri/AR1DP/blob/main/images/Model.png | width=100)
 More details on the report included in this github repository.
 	
 ## Code
