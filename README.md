@@ -19,7 +19,7 @@ More details on the report included in this github repository.
 ## Code
 Sketch of the C++ code (showing the main.cpp): <br />
 `for (int i = 0; i< nwarm + nsample; ++i) { `<br />
-	`update_s(y, s_initial, mu_initial, sigma_initial, w_initial, L, N, &rng);`<br />
+&nbsp;&nbsp;&nbsp;`update_s(y, s_initial, mu_initial, sigma_initial, w_initial, L, N, &rng);`<br />
 	`update_musigma(musigma_initial, mu_initial, sigma_initial, s_initial, y, sigma_alpha, sigma_beta, mumean, lambda0, L, &rng);`<br />
 	`update_allocated_variables(sigma_matrix,sigma_initial, s_initial, T, N);`<br />
 	`update_allocated_variables(mu_matrix,mu_initial, s_initial, T, N);`<br />
