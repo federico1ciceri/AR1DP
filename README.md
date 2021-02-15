@@ -1,4 +1,4 @@
-# AR1DP
+# An AR1-DP model for the gender bias in USA
 How gender stereotypes changed for adjectives and occupations?
 
 ## Table of contents
