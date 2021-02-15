@@ -17,10 +17,17 @@ Here a brief representation of the model:
 More details on the report included in this github repository.
 	
 ## Code
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+Sketch of the C++ code (showing the main.cpp):
+`for (int i = 0; i< nwarm + nsample; ++i) { 
+	update_s(y, s_initial, mu_initial, sigma_initial, w_initial, L, N, &rng);
+	update_musigma(musigma_initial, mu_initial, sigma_initial, s_initial, y, sigma_alpha, sigma_beta, mumean, lambda0, L, &rng);
+	update_allocated_variables(sigma_matrix,sigma_initial, s_initial, T, N);
+	update_allocated_variables(mu_matrix,mu_initial, s_initial, T, N);
+	M_initial = update_M(s_initial, N*T, prioralphaforM, priorbetaforM, M_initial, &rng);
+	psi_initial = update_psi(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma, botlimforpsi, uplimforpsi, &psi_accept_count, &psi_metro_count, &rng);
+	epsilon_initial = update_epsilon_gibbs(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma, &rng);
+	}`
+	
 	
 ## Results
 To run this project, install it locally using npm:
