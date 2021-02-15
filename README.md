@@ -19,13 +19,13 @@ More details on the report included in this github repository.
 ## Code
 Sketch of the C++ code (showing the main.cpp): <br />
 `for (int i = 0; i< nwarm + nsample; ++i) { `<br />
-&nbsp;&nbsp;&nbsp;`update_s(y, s_initial, mu_initial, sigma_initial, w_initial, L, N, &rng);`<br />
-	`update_musigma(musigma_initial, mu_initial, sigma_initial, s_initial, y, sigma_alpha, sigma_beta, mumean, lambda0, L, &rng);`<br />
-	`update_allocated_variables(sigma_matrix,sigma_initial, s_initial, T, N);`<br />
-	`update_allocated_variables(mu_matrix,mu_initial, s_initial, T, N);`<br />
-	`M_initial = update_M(s_initial, N*T, prioralphaforM, priorbetaforM, M_initial, &rng);`<br />
-	`psi_initial = update_psi(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma, botlimforpsi, uplimforpsi, &psi_accept_count, &psi_metro_count, &rng);`<br />
-	`epsilon_initial = update_epsilon_gibbs(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma, &rng);`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update_s(y, s_initial, mu_initial, sigma_initial, w_initial, L, N, &rng);`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update_musigma(musigma_initial, mu_initial, sigma_initial, s_initial, y, sigma_alpha, sigma_beta, mumean, lambda0, L, &rng);`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update_allocated_variables(sigma_matrix,sigma_initial, s_initial, T, N);`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update_allocated_variables(mu_matrix,mu_initial, s_initial, T, N);`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`M_initial = update_M(s_initial, N*T, prioralphaforM, priorbetaforM, M_initial, &rng);`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`psi_initial = update_psi(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma, botlimforpsi, uplimforpsi, &psi_accept_count, &psi_metro_count, &rng);`<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`epsilon_initial = update_epsilon_gibbs(psi_initial, epsilon_initial, s_initial, M_initial, L, N, T, R, psi_sigma, &rng);`<br />
 	`}`
 	
 	
