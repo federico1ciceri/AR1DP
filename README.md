@@ -42,6 +42,8 @@ More details on the report included in this github repository.
 Don't forget to properly set your R directories before trying to run the R code, in particular:
 - a wd pointing to any of the clustering methods' folders if trying to import the embedding bias data; <br />
 - a wd pointing to _Results/decades_txt_ if trying to import the output of the C++ code. <br />
+
+
 Moreover, to install the employed R packages correctly, run the following codeline: <br />
 ```
 install.packages(c("cluster", "factoextra", "openxlsx", "clusterCrit", "fields","tidyverse", "BNPmix", "reshape2", "ggplot2","plot.matrix"))
