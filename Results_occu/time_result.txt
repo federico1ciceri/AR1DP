@@ -1,0 +1,4 @@
+time: 38645 secondi 
+da che iterazione inizio a salvare il mio output: 5000
+numero di samples di MCMC: 50000
+numero di particles di MCMC: 500
