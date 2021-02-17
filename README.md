@@ -1,5 +1,5 @@
 # An AR1-DP model for the gender bias in the USA
-How gender stereotypes changed for adjectives and occupations?
+How did gender stereotypes change for adjectives and occupations in the last century?
 
 ## Table of contents
 * [Dataset and model](#Dataset/model)
