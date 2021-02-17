@@ -7,6 +7,8 @@ How gender stereotypes changed for adjectives and occupations?
 * [Before Running](#Instructions)
 * [A sketch of the code](#Code)
 * [Some results](#Results)
+* [The team](#Authors)
+* [Tutor and professors](#Acknowledgments)
 
 ## Dataset/model
 The focus of this project is on the study of the temporal dynamics of gender stereotypes in adjectives and occupations in the 20th and 21st centuries in the United States.
@@ -83,3 +85,14 @@ for (int i = 0; i< nwarm + nsample; ++i) {
    
    
 _For a complete analysis of the posterior inference/results, please refer to the_ ***report*** _of the project._
+
+## Authors
+1. Brassoli Lorenzo (https://github.com/lorenzobrassoli96)
+2. Ciceri Federico
+3. Pigani Giovanni
+4. Rota Francesca
+
+## Acknowledgemnts
+1. **Guglielmi Alessandra**, project tutor and Bayesian Statistics course professor
+2. **Corradin Riccardo**, Bayesian Statistics course teacher assistant
+3. **Beraha Mario**, Bayesian Statistics course project tutor
