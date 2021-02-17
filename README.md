@@ -87,12 +87,12 @@ for (int i = 0; i< nwarm + nsample; ++i) {
 _For a complete analysis of the posterior inference/results, please refer to the_ ***report*** _of the project._
 
 ## Authors
-1. Brassoli Lorenzo (https://github.com/lorenzobrassoli96)
-2. Ciceri Federico
-3. Pigani Giovanni
-4. Rota Francesca
+- Brassoli Lorenzo (https://github.com/lorenzobrassoli96)
+- Ciceri Federico
+- Pigani Giovanni (https://github.com/giopiga)
+- Rota Francesca (https://github.com/FraRota)
 
 ## Acknowledgemnts
-1. **Guglielmi Alessandra**, project tutor and Bayesian Statistics course professor
-2. **Corradin Riccardo**, Bayesian Statistics course teacher assistant
-3. **Beraha Mario**, Bayesian Statistics course project tutor
+- **Guglielmi Alessandra**, project tutor and Bayesian Statistics course professor
+- **Corradin Riccardo**, Bayesian Statistics course teacher assistant
+- **Beraha Mario**, Bayesian Statistics course project tutor
