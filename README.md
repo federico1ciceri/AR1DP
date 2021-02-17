@@ -69,7 +69,8 @@ for (int i = 0; i< nwarm + nsample; ++i) {
 1. **Posterior inference on some parameters**: <br />
    - here we show the traceplot for the total mass parameter of the DP.
    ![traceplot_M](https://github.com/federico1ciceri/AR1DP/blob/main/images/traceplot_m_def.png)
-   - here a graphical representation of the clustering structures at different times (t=1900 and t=2000) is displayed.
+   - here a graphical representation of the clustering structures at different times (t=1900 and t=2000) is displayed.<br />
+   
    ![post_sim_matrix_1900](https://github.com/federico1ciceri/AR1DP/blob/main/images/post_sim_matrix_1900.png)
    ![post_sim_matrix_2000](https://github.com/federico1ciceri/AR1DP/blob/main/images/post_sim_matrix_2000.png)
    - we can also focus on the behavior of the gender bias in specific occupations using the following table:
