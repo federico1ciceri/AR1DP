@@ -18,7 +18,7 @@ Here a brief representation of the model:
 ![Model](https://github.com/federico1ciceri/AR1DP/blob/main/images/Model.png)
 
 
-More details on the report included in this github repository.
+More details on the ***report*** included in this github repository.
 
 ## Folders
 1. ***R_script*** includes:
