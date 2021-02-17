@@ -92,7 +92,7 @@ _For a complete analysis of the posterior inference/results, please refer to the
 - Pigani Giovanni (https://github.com/giopiga)
 - Rota Francesca (https://github.com/FraRota)
 
-## Acknowledgemnts
+## Acknowledgments
 - **Guglielmi Alessandra**, project tutor and Bayesian Statistics course professor
 - **Corradin Riccardo**, Bayesian Statistics course teacher assistant
 - **Beraha Mario**, Bayesian Statistics course project tutor
